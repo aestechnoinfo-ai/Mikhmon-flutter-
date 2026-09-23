@@ -1,0 +1,29 @@
+name: mikhmon_flutter
+description: "Clone natif Flutter de Mikhmon - gestionnaire de hotspot MikroTik (RouterOS v6/v7)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  crypto: ^3.0.5
+  http: ^1.2.1
+  intl: ^0.19.0
+  qr_flutter: ^4.1.0
+  pdf: ^3.11.0
+  printing: ^5.13.1
+  path_provider: ^2.1.4
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

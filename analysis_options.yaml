@@ -1,0 +1,15 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    avoid_print: true
+    unawaited_futures: false
+
+analyzer:
+  language:
+    strict-casts: false
+    strict-inference: false
+  errors:
+    deprecated_member_use: warning
+    unused_import: warning
